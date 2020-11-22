@@ -1,0 +1,9 @@
+{
+    "name": "thinking-home-ui-core",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "cd test-server && http-server",
+        "build": "cd test-plugin && th-ui-build",
+        "link": "cd webui-core && npm link && cd ../test-plugin && npm link @thinking-home/webui-core"
+    }
+}
